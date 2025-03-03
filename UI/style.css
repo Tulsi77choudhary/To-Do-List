@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(28, 116, 101, 0.596); /* Blue background */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Move content to the top */
+    height: 100vh;
+    margin: 0;
+    padding-top: 40px; /* Add spacing from top */
+}
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    color: orangered;
+    display: flex;
+    margin-left: 5rem;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.todo-box {
+    background: rgba(255, 255, 255, 0.432);
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background-color: rgba(4, 0, 255, 0.301);
+    color: white;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgba(51, 153, 148, 0.445);
+    padding: 10px;
+    border-radius: 5px;
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.delete-btn {
+    background: rgba(0, 17, 255, 0.342);
+    border:none;
+    cursor: pointer;
+}
+
+.delete-btn img {
+    width: 20px;
+    height: 20px;
+}
